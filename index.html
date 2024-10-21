@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Handle Errors in JS<h2>
+        <p>This example demonstrates how to use <b>catch to diplay an error.</p>
+        <p id="em"></p>
+
+        <script>
+            try {
+                error_message("Oops! Something went wrong!");
+
+            }
+
+            catch(err){
+
+                document.getElementById("em").innerHTML= err.message;
+            }
+        </script>
+    </body>
+</html>
